@@ -1,0 +1,145 @@
+# introduction
+
+Hello, my name is Harry Garrood, and I'm going to talk to you about
+Redmine, and how my work allowing Halarose to use it has resulted in
+significant productivity gains.
+
+## Redmine
+
+Redmine is a project management and bug tracking web application. Its
+main purpose is to keep track of all the bugs and enhancements which
+have been suggested to Halarose software products. It does this by
+interacting with a database. It also provides a powerful web interface
+to this data, which can be viewed with a web browser like Google Chrome
+or Mozilla Firefox.
+
+## bug tracking
+
+So why do we need to track bugs? Ask any software developer, and they'll
+tell you that every software project needs a database with details of
+all the known and reported bugs. This is important for a number of
+reasons:
+
+### Bugs should not be forgotten
+
+Bugs should never be forgotten about. It's impossible to keep more than
+2 or 3 bugs in your head -- without a bug tracking system, bugs will be
+forgotten about.
+
+### Prioritisation
+
+Prioritising bugs. Severe bugs can be found and fixed earlier, and less
+severe ones can be left for later
+
+### Version history
+
+Keeping track of version history. It's possible to keep track of which
+bugs were fixed and which features were added in which version.
+
+### Support
+
+Support. If a customer has an issue which has already been reported, the
+person on support can give them a much better answer in much less time
+if there is already an entry in the bug database for it (which there
+often is)
+
+### Management
+
+Management. It becomes possible to keep track of how far you are from
+being able to release the next version in order to avoid missing
+deadlines
+
+## comparison with the old software
+
+Before Redmine, we did have a bug database, and software to interact
+with it, but it had a few limits:
+
+### couldn't integrate
+
+Our old bug tracker was unable to integrate with other tools we use:
+
+#### Subversion
+
+Subversion is the software we use to keep track of changes to the code.
+Whenever any of the source files for Halarose's products are changed, we
+enter the changes into Subversion, and other developers are able to get
+each others' changes from the central repository.
+
+Subversion is an immensely important tool for developing software,
+because it lets you look back through the history to see when a
+particular change was made, who did it, and why.
+
+Redmine integrates with subversion -- for example, on the web page for
+an issue on Redmine, there is a list of all the changes to the code
+relating to that particular issue.
+
+#### Jenkins
+
+When you need to produce a working version of some software (so, you may
+want to test it, or to create a release which is sent to customers), you
+need to change it from plain text (or 'source' files), which people can
+read, into 'executable' files, which computers can read. This process is
+called 'compiling' or 'building', and because it happens a lot within
+Halarose, we use 'continuous integration' software called Jenkins to
+keep track of all these builds for us. It does things like:
+
+* Keeping track of the executable files produces by builds
+* Keeping track of whether builds succeeded (sometimes, there are errors
+  in the source files which mean that executable files can't be created)
+
+Jenkins is especially important for testing, as it allows us to find
+which version a particular problem started happening in, which makes it
+easy to find which particular change caused it.
+
+Redmine's integration with Jenkins allow us to see on the issue page
+which build each of the changes was first built in, and whether that
+build succeeded, which further increases testers' productivity.
+
+### searching
+
+Searching and querying was very difficult with the old software. This
+meant that duplicate bug reports were often entered, because people
+didn't realise that a similar bug report already existed in the
+database.
+
+Redmine has built in search and query functions which allow Halarose
+staff to quickly and efficiently extract the information they need to.
+
+### release notes
+
+With any new release, we need to produce release notes, which is a list
+of all the changes we made: bugs we fixed, and new features we added.
+Previously, this data was stored in a text file, which developers edited
+after they finished working on a bug or feature.
+
+I realised that this would be better off in the database, where it
+would then be possible to not only have Redmine say how many bugs for an
+upcoming release have had their release notes finished and how many
+still need doing, but also have it generate a list of release notes
+on-the-fly -- far better than the previous situation, where someone
+would have to look through all the release notes, comparing them to the
+bug database to ensure that no mistakes were made.
+
+I wrote a plugin -- so-called because it is a package which can simply
+be plugged in to the main Redmine code easily -- in order to achieve
+this. This highlights another of Redmine's bonuses: if it doesn't quite
+do what you want, you can extend the code very easily. Often, someone
+else will have had the same idea as you, and have written their own
+plugin; if not, it's not too hard to write one yourself.
+
+This has greatly increasing our productivity for getting releases out,
+as a large amount of work which was previously done manually is now
+automated.
+
+## Summary
+
+In summary, switching to Redmine for bug tracking and project management
+has yielded a great deal in terms of increased productivity for the
+development, testing, and support teams. Redmine excels in many of the
+areas where our previous software was lacking; some examples of this
+are:
+
+* integration with other tools
+* searching and querying
+* release notes
+
