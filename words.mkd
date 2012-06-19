@@ -143,3 +143,5 @@ are:
 * searching and querying
 * release notes
 
+I will close with a testimonial from our lead software tester. (on the
+slide).
