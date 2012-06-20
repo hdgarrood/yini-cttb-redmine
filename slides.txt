@@ -1,0 +1,35 @@
+% Migrating to Redmine
+% Harry Garrood
+% 26 June 2012
+
+--------
+
+![redmine logo](img/redmine-logo.png)
+
+![halarose logo](img/halarose-logo.jpg)
+
+--------
+
+![bug tracking](img/bug-tracking.png)
+
+- Bugs should never be forgotten about
+- Prioritisation
+- Version history
+- Support
+- Management
+
+-------
+
+# Comparison with old bug tracker
+
+- No integration with other tools
+    - Subversion
+    - Jenkins
+- Searching
+- Notifications
+- Release notes
+
+-------
+
+# Summary
+

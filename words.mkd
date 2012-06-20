@@ -104,6 +104,15 @@ database.
 
 Redmine has built in search and query functions which allow Halarose
 staff to quickly and efficiently extract the information they need to.
+For example, this means that it is capable of generating todo lists for
+testers or developers on the fly, greatly reducing the amount of time
+spent in organising and prioritising tasks manually.
+
+### notifications
+
+Redmine is capable of sending email notifications, ensuring that people
+are kept up to date on information relevant to them, and increasing the
+efficiency of communication overall.
 
 ### release notes
 
@@ -136,12 +145,15 @@ automated.
 In summary, switching to Redmine for bug tracking and project management
 has yielded a great deal in terms of increased productivity for the
 development, testing, and support teams. Redmine excels in many of the
-areas where our previous software was lacking; some examples of this
-are:
+areas where our previous software was lacking, and has proved to be
+highly reliable and adaptable. I will close with a testimonial from our
+lead software tester:
 
-* integration with other tools
-* searching and querying
-* release notes
-
-I will close with a testimonial from our lead software tester. (on the
-slide).
+> As a software tester, I needed a reliable and flexible tool to
+> prioritise my work flow and communicate with development and support
+> teams effectively.  Harry’s Redmine project has given me exactly that
+> as well as an efficient means of keeping up-to-date with the scope of
+> the various software releases we have planned.  The ease with which
+> people can add comments and reply to my questions regarding a specific
+> issue has certainly improved my time management and productivity.
+> Thank you Harry! 
