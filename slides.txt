@@ -4,13 +4,13 @@
 
 --------
 
-![redmine logo](img/redmine-logo.png)
+![redmine logo](img/redmine-logo.png)\
 
-![halarose logo](img/halarose-logo.jpg)
+![halarose logo](img/halarose-logo.jpg)\
 
 --------
 
-![bug tracking](img/bug-tracking.png)
+![bug tracking](img/bug-tracking.png)\
 
 - Bugs should never be forgotten about
 - Prioritisation
