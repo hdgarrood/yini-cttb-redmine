@@ -4,39 +4,38 @@ Hello, my name is Harry Garrood, and I'm going to talk to you about
 Redmine, and how my work allowing Halarose to use it has resulted in
 significant productivity gains.
 
-## Redmine
+# What I did
 
-Redmine is a project management and bug tracking web application. Its
-main purpose is to keep track of all the bugs and enhancements which
-have been suggested to Halarose software products. It does this by
-interacting with a database. It also provides a powerful web interface
-to this data, which can be viewed with a web browser like Google Chrome
-or Mozilla Firefox.
+In a nutshell, I did the work necessary to migrate from our old bug
+tracking software to Redmine, which involved moving the data across, as
+well as setting up and configuring it. I also wrote some code to
+interact with the core Redmine code, in order to extend its capabilities
+to better suit Halarose's needs.
 
-## bug tracking
+# Background info -- Why track bugs?
 
 So why do we need to track bugs? Ask any software developer, and they'll
 tell you that every software project needs a database with details of
 all the known and reported bugs. This is important for a number of
 reasons:
 
-### Bugs should not be forgotten
+## Bugs should not be forgotten
 
 Bugs should never be forgotten about. It's impossible to keep more than
 2 or 3 bugs in your head -- without a bug tracking system, bugs will be
 forgotten about.
 
-### Prioritisation
+## Prioritisation
 
 Prioritising bugs. Severe bugs can be found and fixed earlier, and less
 severe ones can be left for later
 
-### Version history
+## Version history
 
 Keeping track of version history. It's possible to keep track of which
 bugs were fixed and which features were added in which version.
 
-### Support
+## Support
 
 Support. If a customer has an issue which has already been reported, the
 person on support can give them a much better answer in much less time
@@ -45,9 +44,17 @@ often is)
 
 ### Management
 
-Management. It becomes possible to keep track of how far you are from
-being able to release the next version in order to avoid missing
-deadlines
+Management. When using software like Redmine it is possible to answer
+questions like: "What's a reasonable date for being ready for the next
+release", or "Are we dividing time between fixing bugs and adding new
+features appropriately?"
+
+# What is Redmine?
+
+Redmine is a web-based bug tracking and project management application.
+One bonus this has over the old software is that it only runs in one
+place, and therefore only needs to be configured once. People using the
+software simply access it through their web browser.
 
 ## comparison with the old software
 
