@@ -49,12 +49,12 @@ features appropriately?"
 
 ## comparison with the old software
 
-Before Redmine, we did have a bug database, and software to interact
-with it, but it had a few limits:
+Redmine has given us a large number of advantages over the old software:
 
-### couldn't integrate
+### integration
 
-Our old bug tracker was unable to integrate with other tools we use:
+Redmine is able to integrate with other tools we use in the development
+process, such as:
 
 #### Subversion
 
