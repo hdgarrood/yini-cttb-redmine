@@ -2,7 +2,7 @@
 % Harry Garrood
 % 26 June 2012
 
-# What is Redmine?
+# What I did
 
 <div class="center">
 ![redmine logo](img/redmine-logo.png)\
@@ -30,6 +30,4 @@
 - Searching
 - Notifications
 - Release notes
-
-# Summary
 
