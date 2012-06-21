@@ -10,14 +10,14 @@
 
 # Why track bugs?
 
-<div class="row">
-<div class="col">
+<div class="vbox">
+<div class="hbox">
 - Bugs should never be forgotten about
 - Versions
 - Support
 - Management
 </div>
-<div class="col">
+<div class="hbox">
 ![bug tracking](img/bug-tracking.png)\
 </div>
 </div>
