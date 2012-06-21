@@ -8,12 +8,12 @@ significant productivity gains.
 
 I did the work necessary to migrate from our old bug tracking software
 to Redmine, an advanced web-based bug tracking and project management
-application, which involved moving the data across, as well as setting
-up and configuring it. I also wrote some code to interact with the core
-Redmine code, in order to extend its capabilities to better suit
+application. This involved moving the data across, as well as setting
+up and configuring it. I also wrote some code to interact with the
+Redmine core, in order to extend its capabilities to better suit
 Halarose's needs.
 
-# Background info -- Why track bugs?
+# Why track bugs?
 
 So why track bugs? Ask any software developer, and they'll tell you that
 every software project needs a database with details of all the known
@@ -21,28 +21,28 @@ and reported bugs. This is important for a number of reasons:
 
 ## Bugs should never be forgotten
 
-Bugs should never be forgotten about. It's impossible to keep more than
-2 or 3 bugs in your head -- without a bug tracking system, bugs will be
-forgotten about.
+It's impossible to keep more than 2 or 3 bugs in your head -- without
+a bug tracking system, bugs will be forgotten about.
 
 ## Versions
 
-When we are preparing for a release, we need to decide which bugs and
-which features we are going to add, and which will be left for a later
-release. We also want to be able to view this information after a
-release has gone out. Most bug tracking software allows target versions
-to be set for bugs.
+When we are preparing for a release, we need to choose out of all the
+unfixed bugs and unimplemented features, which we will fix or implement,
+and which can be left for a later release. We also want to be able to
+view this information after a release has gone out. Therefore it is
+essential to have a record of the changelist for each version -- something
+that is possible with a bug database.
 
 ## Support
 
-Support. If a customer has an issue which has already been reported, the
-person on support can give them a much better answer in much less time
-if there is already an entry in the bug database for it (which there
-often is)
+If a customer has an issue which has already been reported, the
+support staff can give them a much better answer in much less time
+if they can find an existing entry in the bug database describing
+their problem.
 
 ### Management
 
-Management. When using software like Redmine it is possible to answer
+When using software like Redmine it is possible to answer
 questions like: "What's a reasonable date for being ready for the next
 release?", or "Are we dividing time between fixing bugs and adding new
 features appropriately?"
@@ -53,15 +53,16 @@ Redmine has given us a large number of advantages over the old software:
 
 ### integration
 
-Redmine is able to integrate with other tools we use in the development
+It is able to integrate with other tools we use in the development
 process, such as:
 
 #### Subversion
 
-Subversion is the software we use to keep track of changes to the code.
-Whenever any of the source files for Halarose's products are changed, we
-enter the changes into Subversion, and other developers are able to get
-each others' changes from the central repository.
+Apache Subversion is a piece of software which we use at Halarose to
+keep track of changes to our software. Whenever any of the source
+files for Halarose's products are changed, we enter the changes into
+Subversion, and other developers are able to get each others' changes
+from the central repository.
 
 Subversion is an immensely important tool for developing software,
 because it lets you look back through the history to see when a
@@ -81,9 +82,8 @@ called 'compiling' or 'building', and because it happens a lot within
 Halarose, we use 'continuous integration' software called Jenkins to
 keep track of all these builds for us. It does things like:
 
-* Keeping track of the executable files produces by builds
-* Keeping track of whether builds succeeded (sometimes, there are errors
-  in the source files which mean that executable files can't be created)
+* Keeping track of the executable files produces by builds, and
+* Keeping track of whether builds were successful
 
 Jenkins is especially important for testing, as it allows us to find
 which version a particular problem started happening in, which makes it
@@ -127,31 +127,34 @@ on-the-fly -- far better than the previous situation, where someone
 would have to look through all the release notes, comparing them to the
 bug database to ensure that no mistakes were made.
 
-I wrote a plugin -- so-called because it is a package which can simply
-be plugged in to the main Redmine code easily -- in order to achieve
-this. This highlights another of Redmine's bonuses: if it doesn't quite
-do what you want, you can extend the code very easily. Often, someone
-else will have had the same idea as you, and have written their own
-plugin; if not, it's not too hard to write one yourself.
-
-This has greatly increasing our productivity for getting releases out,
+This has greatly increased our productivity for getting releases out,
 as a large amount of work which was previously done manually is now
 automated.
 
+This release notes functionality is my code which I mentioned earlier.
+The fact that I was able to do this highlights another of Redmine's
+bonuses: since it is open-source (which means anyone is able to look
+at the source code), and written in such a way that extending it
+is relatively easy, it is extremely customizable. This customizability
+has allowed me to tune our Redmine installation to fit Halarose's
+specific needs.
+
 ## Summary
 
-In summary, switching to Redmine for bug tracking and project management
-has yielded a great deal in terms of increased productivity for the
-development, testing, and support teams. Redmine excels in many of the
-areas where our previous software was lacking, and has proved to be
-highly reliable and adaptable. I will close with a testimonial from our
-lead software tester:
+The Redmine project has been a complete success. It has yielded a
+great deal in terms of increased productivity for the
+development, testing, and support teams. It has also been a significant
+step in our longer-term objective of refining our whole software
+development process, ultimately allowing faster development, fewer bugs,
+and better quality products.
 
-> As a software tester, I needed a reliable and flexible tool to
+I will close with a testimonial from our lead software tester:
+
+> I needed a reliable and flexible tool to
 > prioritise my work flow and communicate with development and support
-> teams effectively.  Harry’s Redmine project has given me exactly that
+> teams effectively.  Harry's Redmine project has given me exactly that
 > as well as an efficient means of keeping up-to-date with the scope of
 > the various software releases we have planned.  The ease with which
 > people can add comments and reply to my questions regarding a specific
 > issue has certainly improved my time management and productivity.
-> Thank you Harry! 
+> Thank you Harry!
