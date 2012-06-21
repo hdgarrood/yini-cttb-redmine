@@ -10,14 +10,17 @@
 
 # Why track bugs?
 
-![bug tracking](img/bug-tracking.png)\
-
-Bugs should never be forgotten about
-
-- Prioritisation
-- Version history
+<div class="row">
+<div class="col">
+- Bugs should never be forgotten about
+- Versions
 - Support
 - Management
+</div>
+<div class="col">
+![bug tracking](img/bug-tracking.png)\
+</div>
+</div>
 
 # Comparison with old bug tracker
 

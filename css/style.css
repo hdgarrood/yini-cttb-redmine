@@ -4,3 +4,6 @@ div.center {
     width: 60%;
 }
 
+div.col {
+    float: left;
+}
