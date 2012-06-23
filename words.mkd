@@ -40,7 +40,7 @@ support staff can give them a much better answer in much less time
 if they can find an existing entry in the bug database describing
 their problem.
 
-### Management
+## Management
 
 When using software like Redmine it is possible to answer
 questions like: "What's a reasonable date for being ready for the next
@@ -127,17 +127,9 @@ on-the-fly -- far better than the previous situation, where someone
 would have to look through all the release notes, comparing them to the
 bug database to ensure that no mistakes were made.
 
-This has greatly increased our productivity for getting releases out,
-as a large amount of work which was previously done manually is now
-automated.
-
-This release notes functionality is my code which I mentioned earlier.
-The fact that I was able to do this highlights another of Redmine's
-bonuses: since it is open-source (which means anyone is able to look
-at the source code), and written in such a way that extending it
-is relatively easy, it is extremely customizable. This customizability
-has allowed me to tune our Redmine installation to fit Halarose's
-specific needs.
+I wrote the code necessary for this functionality, and it has greatly
+increased our productivity for getting releases out, as a large amount
+of work which was previously done manually is now automated.
 
 ## Summary
 
@@ -157,4 +149,3 @@ I will close with a testimonial from our lead software tester:
 > the various software releases we have planned.  The ease with which
 > people can add comments and reply to my questions regarding a specific
 > issue has certainly improved my time management and productivity.
-> Thank you Harry!
