@@ -59,4 +59,10 @@ summary
 
 	close with a testimonial:
 
-> 
+> I needed a reliable and flexible tool to prioritise my work flow and
+> communicate with development and support teams effectively. Harry's
+> Redmine project has given me exactly that as well as an efficient
+> means of keeping up-to-date with the scope of the various software
+> releases we have planned. The ease with which people can add comments
+> and reply to my questions regarding a specific issue has certainly
+> improved my time management and productivity. Thank you Harry!

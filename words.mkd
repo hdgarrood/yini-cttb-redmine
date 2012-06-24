@@ -149,3 +149,4 @@ I will close with a testimonial from our lead software tester:
 > the various software releases we have planned.  The ease with which
 > people can add comments and reply to my questions regarding a specific
 > issue has certainly improved my time management and productivity.
+> Thank you Harry!
