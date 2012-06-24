@@ -40,6 +40,8 @@ many advantages
             integration
                 issue page, list of commits per issue
 
+        -----------
+
         Jenkins
             building: source files to executables
             keeps track of this:
@@ -48,6 +50,9 @@ many advantages
             on issue page:
                 see which build each change went into
                 - good for testers
+
+        ------------
+
     searching
         used to be difficult
             - duplicate bug reports
