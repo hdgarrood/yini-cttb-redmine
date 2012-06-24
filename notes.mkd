@@ -1,0 +1,62 @@
+Introduce
+=NS
+Migrate + use redmine
+	data
+	configuration
+	extension
+=NS
+versions
+	decide which
+	view after
+manage
+	reasonable date next release?	
+	divide time between bugs/enhcancements well?
+=NS
+apache svn
+	keep track of changes
+	enter them into repository
+	get each other's changes
+
+	view history -- changes: when, who, why
+	integration -- issue page, list of commits
+
+Jenkins
+	building: source files to executables
+	keeps track of this:
+		each build
+		succeeded?
+	on issue page:
+		see which build each change went into
+		- good for testers
+searching
+	used to be difficult
+		- duplicate bug reports
+	can now extract info
+		- eg: prioritised todo lists on the fly
+			- no longer need to do manually
+notifications
+release notes
+	what are they?
+	used to be in a plaintext file
+	better in DB
+		for an upcoming release:
+			how many are done?
+			generate on-the-fly
+				- this means no manual checking
+	I wrote it
+	greatly decreased time taken to get releases out
+=NS
+summary
+	complete success
+	increased productivity:
+		- developers
+		- testers
+		- support
+	step to refine whole process
+		- faster dev
+		- fewer bugs
+		- better products
+
+	close with a testimonial:
+
+> 
