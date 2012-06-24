@@ -1,51 +1,73 @@
 Introduce
-=NS
-Migrate + use redmine
-	data
-	configuration
-	extension
-=NS
-versions
-	decide which
-	view after
-manage
-	reasonable date next release?	
-	divide time between bugs/enhcancements well?
-=NS
-apache svn
-	keep track of changes
-	enter them into repository
-	get each other's changes
+talk about:
+    Redmine
+    work result in productivity gains
 
-	view history -- changes: when, who, why
-	integration -- issue page, list of commits
+----------
 
-Jenkins
-	building: source files to executables
-	keeps track of this:
-		each build
-		succeeded?
-	on issue page:
-		see which build each change went into
-		- good for testers
-searching
-	used to be difficult
-		- duplicate bug reports
-	can now extract info
-		- eg: prioritised todo lists on the fly
-			- no longer need to do manually
-notifications
-release notes
-	what are they?
-	used to be in a plaintext file
-	better in DB
-		for an upcoming release:
-			how many are done?
-			generate on-the-fly
-				- this means no manual checking
-	I wrote it
-	greatly decreased time taken to get releases out
-=NS
+allow migration to Redmine
+	move data
+	setup + configuration
+	extension to better suit our needs
+
+----------
+
+needs a DB with details of bugs because:
+    bugs should never be forgotten about
+    versions
+        decide which bugs + enhancements per version
+        view after release gone out
+        therefore essential to keep track of this in DB
+    support
+        if already reported:
+            better answer
+            less time
+    manage
+        answer questions:
+            reasonable date next release?	
+            divide time between bugs/enhcancements well?
+
+----------
+
+many advantages
+    integration
+        apache svn
+            keep track of all changes to src
+                enter them into repository
+                get each other's changes
+            important because:
+                view history -- changes: when, who, why
+            integration
+                issue page, list of commits per issue
+
+        Jenkins
+            building: source files to executables
+            keeps track of this:
+                each build
+                succeeded?
+            on issue page:
+                see which build each change went into
+                - good for testers
+    searching
+        used to be difficult
+            - duplicate bug reports
+        can now extract info
+            - eg: prioritised todo lists on the fly
+                - no longer need to do manually
+    notifications
+    release notes
+        what are they?
+        used to be in a plaintext file
+        better in DB
+            for an upcoming release:
+                how many are done?
+                generate on-the-fly
+                    - this means no manual checking
+        I wrote it
+        greatly decreased time taken to get releases out
+
+----------
+
 summary
 	complete success
 	increased productivity:
