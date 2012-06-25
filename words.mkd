@@ -47,16 +47,16 @@ questions like: "What's a reasonable date for being ready for the next
 release?", or "Are we dividing time between fixing bugs and adding new
 features appropriately?"
 
-## comparison with the old software
+# comparison with the old software
 
 Redmine has given us a large number of advantages over the old software:
 
-### integration
+## integration
 
 It is able to integrate with other tools we use in the development
 process, such as:
 
-#### Subversion
+### Subversion
 
 Apache Subversion is a piece of software which we use at Halarose to
 keep track of changes to our software. Whenever any of the source
@@ -72,7 +72,7 @@ Redmine integrates with subversion -- for example, on the web page for
 an issue on Redmine, there is a list of all the changes to the code
 relating to that particular issue.
 
-#### Jenkins
+### Jenkins
 
 When you need to produce a working version of some software (so, you may
 want to test it, or to create a release which is sent to customers), you
@@ -93,7 +93,7 @@ Redmine's integration with Jenkins allow us to see on the issue page
 which build each of the changes was first built in, and whether that
 build succeeded, which further increases testers' productivity.
 
-### searching
+## searching
 
 Searching and querying was very difficult with the old software. This
 meant that duplicate bug reports were often entered, because people
@@ -106,13 +106,13 @@ For example, this means that it is capable of generating todo lists for
 testers or developers on the fly, greatly reducing the amount of time
 spent in organising and prioritising tasks manually.
 
-### notifications
+## notifications
 
 Redmine is capable of sending email notifications, ensuring that people
 are kept up to date on information relevant to them, and increasing the
 efficiency of communication overall.
 
-### release notes
+## release notes
 
 With any new release, we need to produce release notes, which is a list
 of all the changes we made: bugs we fixed, and new features we added.
@@ -131,7 +131,7 @@ I wrote the code necessary for this functionality, and it has greatly
 increased our productivity for getting releases out, as a large amount
 of work which was previously done manually is now automated.
 
-## Summary
+# Summary
 
 The Redmine project has been a complete success. It has yielded a
 great deal in terms of increased productivity for the
